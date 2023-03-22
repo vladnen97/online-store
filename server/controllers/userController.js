@@ -44,8 +44,8 @@ class UserController {
         return res.json({token})
     }
 
-    async authCheck(req, res, next) {
-        
+    async check(req, res, next) {
+        res.json({message: 'All right!!'})
     }
 }
 
